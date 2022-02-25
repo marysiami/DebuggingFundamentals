@@ -22,6 +22,11 @@
 
             return false;
         }
+
+        public override int GetHashCode()
+        {
+            return this.Name.GetHashCode();
+        }
     }
 }
  
